@@ -1,10 +1,51 @@
 h1 {
-  background-color: red;
+  color: white;
+  background-color: #0F056B;
  text-align: center;
  padding-top: 25px;
  padding-bottom: 25px;
+ border-bottom: 5px red solid;
+}
+i {
+  margin-right: 15px;
+  margin-left: 15px;
 }
 section {
-  background-color: blue;
+  background-color: #003366;
+   border-bottom: 5px #CCCCFF solid;
+    border-top: 5px #CCCCFF solid;
+    padding-bottom: 25px;
 
 }
+article {
+display: inline-block;
+background-color: #002FA7;
+font-style: italic;
+margin-left: 90px;
+border: 5px #002FA7 solid;
+width: 300px;
+height: 300px;
+border-radius: 10px;
+box-shadow: 5px 5px;
+}
+.zone {
+  background-color: white;
+  border: 5px white solid;
+}
+h3 {
+  color: white;
+
+}
+h2 {
+  color: white;
+  text-decoration: underline;
+}
+.fa-check-square{
+  color: green;
+}
+.fa-spinner{
+  color: red;
+}
+.css li,.html li,.atom li,.nano li {
+  text-decoration: line-through;
+  }
